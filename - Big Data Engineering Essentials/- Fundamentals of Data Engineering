@@ -1,0 +1,102 @@
+## 🛠 **What is Hadoop?**
+
+Apache Hadoop is an **open-source framework** for distributed storage and processing of large datasets using **clusters of computers**.
+
+### 🔧 Hadoop Core Components:
+
+1. **HDFS (Hadoop Distributed File System):**
+
+   * Stores data across multiple machines.
+   * Fault-tolerant and scalable.
+
+2. **YARN (Yet Another Resource Negotiator):**
+
+   * Manages computing resources and job scheduling.
+
+3. **MapReduce:**
+
+   * Programming model for processing large data in parallel.
+
+4. **Common Utilities:**
+
+   * Java libraries and tools used across Hadoop modules.
+
+---
+
+## ⚡ What is Apache Spark?
+
+Apache Spark is a **fast, in-memory data processing engine** designed for big data workloads. It supports batch, streaming, machine learning, and graph processing.
+
+### 🚀 Spark Core Components:
+
+1. **Spark Core:**
+
+   * Basic functions: task scheduling, memory management, fault recovery.
+
+2. **Spark SQL:**
+
+   * Processes structured data using SQL-like queries.
+
+3. **Spark Streaming:**
+
+   * Real-time data stream processing.
+
+4. **MLlib:**
+
+   * Built-in machine learning algorithms.
+
+5. **GraphX:**
+
+   * Graph computation library.
+
+6. **RDD (Resilient Distributed Datasets):**
+
+   * Immutable distributed collections of objects.
+
+---
+
+## 🔄 **Hadoop vs Spark Comparison**
+
+| Feature                 | Hadoop                                  | Spark                                          |
+| ----------------------- | --------------------------------------- | ---------------------------------------------- |
+| **Processing Model**    | Batch (MapReduce)                       | Batch + Real-Time (In-Memory)                  |
+| **Speed**               | Slower due to disk I/O                  | Faster due to in-memory computing              |
+| **Ease of Use**         | Requires Java (verbose)                 | Supports Scala, Python, Java, R                |
+| **Data Processing**     | Only batch                              | Batch, streaming, ML, graph                    |
+| **Fault Tolerance**     | Yes (replication in HDFS)               | Yes (RDD lineage)                              |
+| **Resource Management** | YARN                                    | Can use YARN, Mesos, or Kubernetes             |
+| **Streaming Support**   | Limited (via external tools like Storm) | Native (Spark Streaming, Structured Streaming) |
+| **ML Support**          | External tools (like Mahout)            | Native (MLlib)                                 |
+| **Performance**         | High latency                            | Low latency                                    |
+
+---
+
+## 📦 When to Use What?
+
+* **Use Hadoop MapReduce:**
+
+  * When you're dealing with batch-only jobs.
+  * Limited memory and want simple fault-tolerant storage/processing.
+* **Use Spark:**
+
+  * When you need fast performance (e.g., iterative ML tasks).
+  * Real-time data processing.
+  * Interactive data exploration.
+
+---
+
+## 💡 Real-World Use Cases
+
+### Hadoop:
+
+* Log analysis
+* ETL pipelines
+* Large-scale batch data processing
+
+### Spark:
+
+* Fraud detection (real-time)
+* Recommendation systems (MLlib)
+* Twitter stream sentiment analysis
+
+

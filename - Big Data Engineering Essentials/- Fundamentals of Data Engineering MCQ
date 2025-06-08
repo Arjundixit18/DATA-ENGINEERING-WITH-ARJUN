@@ -1,4 +1,4 @@
-## QUESTION 1 What is the primary purpose of Hadoop?
+## QUESTION 1 :-  What is the primary purpose of Hadoop?
 
 A. ◻︎ Real-time data processing
 B. ✅ Distributed storage and batch data processing
@@ -12,3 +12,104 @@ Explanation: The primary purpose of Hadoop is to:
 1. Store large datasets across a distributed file system (HDFS).
 2. Process data in batch mode using MapReduce.
 '''
+
+---
+
+## QUESTION 2 :- What is the storage layer in Hadoop called?
+◻︎ YARN
+✅ HDFS
+◻︎ MapReduce
+◻︎ RDDs
+
+## Correct Answer: ✅ HDFS (Hadoop Distributed File System)
+
+---
+
+## QUESTION 3 :- What makes Spark faster than Hadoop for certain tasks?
+
+◻︎ Disk-based processing
+◻︎ Replication of data
+◻︎ Support for multiple programming languages
+✅ In-memory processing
+
+## ✅ Correct Answer: In-memory processing
+## Explanation:
+## Apache Spark is faster than Hadoop MapReduce for many tasks because it uses in-memory processing, meaning:
+## Intermediate results are stored in RAM, not written to disk after each step.
+## This significantly reduces I/O time, especially for iterative tasks like machine learning and graph algorithms.
+
+---
+
+## QUESTION 4:- What is the primary unit of data processing in Spark ?
+◻︎ MapReduce jobs
+◻︎ HDFS blocks
+✅ RDDs (Resilient Distributed Datasets)
+◻︎ YARN containers
+
+## ✅ Correct Answer: RDDs (Resilient Distributed Datasets)
+## Explanation:
+## In Apache Spark, the primary unit of data processing is the RDD:
+## RDD (Resilient Distributed Dataset) is a fault-tolerant, distributed collection of elements that can be operated on in parallel.
+## It supports transformations (like map, filter) and actions (like collect, count).
+## RDDs allow in-memory computation, which makes Spark fast.
+
+---
+
+## QUESTION 5 :- Which feature makes Spark suitable for real-time data processing?
+
+◻︎  MapReduce
+✅ Spark Streaming
+◻︎  HDFS replication
+◻︎  Fault tolerance
+
+##  ✅ Correct Answer: Spark Streaming
+
+##💡 Explanation:
+## Spark Streaming is the feature that enables real-time (streaming) data processing in Apache Spark.
+## It allows processing of live data streams from sources like Kafka, Flume, or socket connections.
+## Data is processed in micro-batches for near real-time performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

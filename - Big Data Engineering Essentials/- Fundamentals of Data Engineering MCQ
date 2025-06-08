@@ -1,12 +1,14 @@
-QUESTION 1 What is the primary purpose of Hadoop?
+## QUESTION 1 What is the primary purpose of Hadoop?
 
-A. Real-time data processing
-B. Distributed storage and batch data processing
-C. Streaming data analysis
-D. Graph data analysis
+A. ◻︎ Real-time data processing
+B. ✅ Distributed storage and batch data processing
+C. ◻︎ Streaming data analysis
+D. ◻︎ Graph data analysis
 
-Correct Answer:  Distributed storage and batch data processing
+'''
+## Correct Answer:  Distributed storage and batch data processing
 
 Explanation: The primary purpose of Hadoop is to:
 1. Store large datasets across a distributed file system (HDFS).
 2. Process data in batch mode using MapReduce.
+'''

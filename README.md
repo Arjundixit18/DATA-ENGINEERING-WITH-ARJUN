@@ -2,7 +2,14 @@
 
 > A comprehensive repository showcasing **data engineering techniques** using **Apache Spark** and **Hadoop**.
 
-![Data Engineering Banner](https://media.giphy.com/media/UqZQ7ve9fWq4w/giphy.gif)
+<p align="center"> 
+Data Engineering Banner
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/UqZQ7ve9fWq4w/giphy.gif" alt="Data Engineering Banner" />
+</p>
+
 
 ---
 
@@ -82,6 +89,12 @@ Found a bug? Have an idea for improvement? [Open an issue](https://github.com/yo
 
 ---
 
-> Built with ❤️ for the data engineering community.
 
-![Thanks](https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif)
+<p align="center">
+> Built with ❤️ for the data engineering community.
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif" alt="Data Engineering Banner" />
+</p>
+

@@ -1,4 +1,3 @@
-
 # 📂 HDFS Demystified: A Friendly Guide to Big Data Storage
 
 ## 🧭 Getting Started: What Is HDFS?

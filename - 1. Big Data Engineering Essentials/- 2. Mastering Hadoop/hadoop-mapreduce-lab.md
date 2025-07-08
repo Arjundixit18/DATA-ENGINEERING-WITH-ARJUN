@@ -1,4 +1,3 @@
-
 # 🧮 Hadoop MapReduce Made Easy: A Beginner-Friendly Guide
 
 

@@ -1,8 +1,6 @@
 
 # 🧠 Introduction to YARN (Yet Another Resource Negotiator)
 
-
-
 ---
 
 ## 🚀 What is YARN?
